@@ -1,0 +1,74 @@
+/* Variables pour faciliter les changements */
+:root {
+    --dark: #121212;
+    --beige: #d4c3a1; /* Beige élégant */
+    --light-beige: #f5f5dc;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light-beige);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR Custom */
+.navbar {
+    background-color: var(--dark) !important;
+    border-bottom: 1px solid var(--beige);
+}
+
+.navbar-brand, .nav-link {
+    color: var(--beige) !important;
+}
+
+.nav-link:hover {
+    color: var(--white) !important;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 100px 0;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=2070') no-repeat center center/cover;
+    border-bottom: 2px solid var(--beige);
+}
+
+.btn-custom {
+    background-color: var(--beige);
+    color: var(--dark);
+    font-weight: bold;
+    border-radius: 0; /* Look plus moderne/archi */
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+/* CARDS */
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid var(--beige);
+    color: var(--light-beige);
+    border-radius: 0;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.price-tag {
+    color: var(--beige);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid var(--beige);
+    padding: 30px 0;
+    margin-top: 50px;
+}
