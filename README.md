@@ -14,3 +14,5 @@ Site vitrine d'un studio d'enregistrement fictif — réalisé en HTML5/CSS3.
 - Bootstrap 5
 - Git & GitHub
 
+## Site en ligne
+Lien GitHub Pages : [COLLE TON LIEN ICI UNE FOIS ACTIVÉ]
