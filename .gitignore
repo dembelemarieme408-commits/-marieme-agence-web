@@ -1,0 +1,9 @@
+# Ignorer les fichiers système (Mac et Windows)
+.DS_Store
+Thumbs.db
+
+# Ignorer les dossiers de configuration d'éditeurs (VS Code)
+.vscode/
+
+# Ignorer les logs
+*.log
